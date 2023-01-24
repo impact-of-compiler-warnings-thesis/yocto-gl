@@ -28,7 +28,8 @@ jobs:
                            libtinyexr-dev \
                            libstb-dev \
                            libimgui-dev \
-                           libembree-dev
+                           libembree-dev \
+                           libxcursor-dev
       - name: Generate build files
         run: |
           mkdir build && cd build
