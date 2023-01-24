@@ -29,7 +29,11 @@ jobs:
                            libstb-dev \
                            libimgui-dev \
                            libembree-dev \
-                           libxcursor-dev
+                           xorg-dev \
+                           libxcursor-dev \
+                           libwayland-dev \
+                           libxkbcommon-dev \
+                           wayland-protocols
       - name: Generate build files
         run: |
           mkdir build && cd build
