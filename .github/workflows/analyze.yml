@@ -22,7 +22,14 @@ jobs:
         run: |
           sudo apt update
           sudo apt install ninja-build \
-                           libxrandr-dev
+                           libxrandr-dev \
+                           libxinerama-dev \
+                           libglfw3-dev \
+                           libtinyexr-dev \
+                           libstb-dev \
+                           libimgui-dev \
+                           libfast-float-dev \
+                           libembree-dev
       - name: Generate build files
         run: |
           mkdir build && cd build
