@@ -28,7 +28,6 @@ jobs:
                            libtinyexr-dev \
                            libstb-dev \
                            libimgui-dev \
-                           libfast-float-dev \
                            libembree-dev
       - name: Generate build files
         run: |
